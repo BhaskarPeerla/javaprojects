@@ -1,5 +1,5 @@
 FROM java:8  
-COPY . /var/www/java  
-WORKDIR /var/www/java  
+COPY . C:\Users\BhaskarPeerla\Desktop
+WORKDIR C:\Users\BhaskarPeerla\Desktop 
 RUN javac sample.java  
 CMD ["java", "Hello"]
